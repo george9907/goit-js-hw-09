@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/goit-js-hw-09/",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.5.2",
-    "glob": "^8.1.0"
+    "glob": "^8.1.0",
+    "simplelightbox": "^2.14.2",
+    "vite": "^4.5.2"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
