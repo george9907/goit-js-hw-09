@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0 auto;
     list-style: none;
@@ -21,4 +21,4 @@
 
 .gallery-item-image:hover {
     transform: scale(1.05);
-}
+} */
