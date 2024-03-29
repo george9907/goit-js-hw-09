@@ -1,3 +1,5 @@
+// import SimpleLightbox from "simplelightbox";
+// import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
   {
     preview:
@@ -64,8 +66,15 @@ const images = [
   },
 ];
 
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+// const list = document.querySelector("ul.gallery");
+// const listItem = images.map(image => `<li class="gallery-item" <img class="gallery-image" src="${image.preview}" alt="${image.description}"`).join('');
+// list.insertAdjacentHTML('beforeend', listItem);
+
+
+
+
+
+
 
 
 const gallery = document.querySelector('.gallery');
