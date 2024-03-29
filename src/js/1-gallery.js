@@ -66,9 +66,9 @@ const images = [
   },
 ];
 
-// const list = document.querySelector("ul.gallery");
-// const listItem = images.map(image => `<li class="gallery-item" <img class="gallery-image" src="${image.preview}" alt="${image.description}"`).join('');
-// list.insertAdjacentHTML('beforeend', listItem);
+ const list = document.querySelector("ul.gallery");
+ const listItem = images.map(image => `<li class="gallery-item" <img class="gallery-image" src="${image.preview}" alt="${image.description}"`).join('');
+ list.insertAdjacentHTML('beforeend', listItem);
 
 
 
@@ -77,31 +77,33 @@ const images = [
 
 
 
-const gallery = document.querySelector('.gallery');
-const markup = images
-  .map(
-    image => `<li class="gallery-item">
-    <a class="gallery-link" href="${image.original}">
-        <img 
-            class="gallery-image" 
-            src="${image.preview}" 
-            alt="${image.description}" 
-            />
-    </a>
-</li>`
-  )
-  .join('');
+  
 
-gallery.innerHTML = markup;
+// const gallery = document.querySelector('.gallery');
+// const markup = images
+//   .map(
+//     image => `<li class="gallery-item">
+//     <a class="gallery-link" href="${image.original}">
+//         <img 
+//             class="gallery-image"
+//             src="${image.preview}" 
+//             alt="${image.description}" 
+//             />
+//     </a>
+// </li>`
+//   )
+//   .join('');
 
-const options = {
-  captions: true,
-  captionSelector: 'img',
-  captionType: 'attr',
-  captionsData: 'alt',
-  captionPosition: 'bottom',
-  animation: 250,
-};
+// gallery.innerHTML = markup;
 
-const lightbox = new SimpleLightbox('.gallery a', options);
-lightbox.on('show.simplelightbox');
+// const options = {
+//   captions: true,
+//   captionSelector: 'img',
+//   captionType: 'attr',
+//   captionsData: 'alt',
+//   captionPosition: 'bottom',
+//   animation: 250,
+// };
+
+// const lightbox = new SimpleLightbox('.gallery a', options);
+// lightbox.on('show.simplelightbox');
