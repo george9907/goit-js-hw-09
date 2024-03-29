@@ -5,7 +5,7 @@ body {
 }
 
 li {
-    list-style-type: none;
+    list-style: none;
 }
 
 .gallery {
@@ -13,7 +13,7 @@ li {
     flex-wrap: wrap;
     gap: 24px;
     margin: 0;
-    padding: 24px;
+    padding: 24px 156px;
     justify-content: center;
 }
 
@@ -21,8 +21,11 @@ li {
     width: 360px;
     height: 200px;
     flex-shrink: 0;
+    transition: 0.3s ease-in-out;
 }
 
 .gallery-image:hover {
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
+
+
