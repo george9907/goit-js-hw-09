@@ -99,31 +99,4 @@ const lightbox = new SimpleLightbox('.gallery a', options);
 
   
 
-// const gallery = document.querySelector('.gallery');
-// const markup = images
-//   .map(
-//     image => `<li class="gallery-item">
-//     <a class="gallery-link" href="${image.original}">
-//         <img 
-//             class="gallery-image"
-//             src="${image.preview}" 
-//             alt="${image.description}" 
-//             />
-//     </a>
-// </li>`
-//   )
-//   .join('');
 
-// gallery.innerHTML = markup;
-
-// const options = {
-//   captions: true,
-//   captionSelector: 'img',
-//   captionType: 'attr',
-//   captionsData: 'alt',
-//   captionPosition: 'bottom',
-//   animation: 250,
-// };
-
-// const lightbox = new SimpleLightbox('.gallery a', options);
-// lightbox.on('show.simplelightbox');
